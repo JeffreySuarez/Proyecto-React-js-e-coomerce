@@ -1,5 +1,5 @@
 import React from 'react' 
-
+import { CartWidget } from '../cartWidget/cartWidget'
 import './navBar.css'
 
 export const NavBar = () => {
@@ -30,14 +30,16 @@ export const NavBar = () => {
                     <i class="fal fa-user"></i>
                 </div>
 
-                <div className="carrito">
+                <CartWidget/>
+
+                {/* <div className="carrito">
                     <div className="iconCarrito">
                         <i class="far fa-shopping-bag"></i>
                         <span className="cantidadCarrito">
                             2
                         </span>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             

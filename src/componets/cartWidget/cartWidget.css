@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+
+
+.carrito{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.carrito .iconCarrito{
+    position: relative;
+    padding: .5em .5em .5em 0;
+}
+
+.carrito .cantidadCarrito{
+    position: absolute;
+    font-weight: bold;
+    background-color: #0c3d60;
+    font-size: .7em;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    top: .3em;
+    right: .3em;
+    cursor: pointer;
+
+}
