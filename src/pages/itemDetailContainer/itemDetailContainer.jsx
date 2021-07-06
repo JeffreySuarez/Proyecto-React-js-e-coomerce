@@ -18,7 +18,7 @@ export const ItemDetailContainer = () => {
 
         const getItem = () => {
             
-            return id ? ITEMS.filter((item) => item.itemId === id): ITEMS
+            return id ? ITEMS.filter((item) => item.id === id): ITEMS
             
             // return {
             //         id: 1,
