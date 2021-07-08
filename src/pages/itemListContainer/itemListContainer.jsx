@@ -24,10 +24,12 @@ export const ItemListContainer = () => {
         const items = getItems()
         setItems(items)
     }, [id])
+    console.log(items)
 
     return (
         <div>
             <ItemList items={items}/>
+            
         </div>
     )
 

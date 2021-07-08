@@ -18,7 +18,7 @@ export const ItemDetailContainer = () => {
 
         const getItem = () => {
             
-            return id ? ITEMS.filter((item) => item.id === id): ITEMS
+            return id ? ITEMS.filter((item) => item.categoryId === id): ITEMS
             
             // return {
             //         id: 1,
@@ -30,11 +30,12 @@ export const ItemDetailContainer = () => {
         }
         const item = getItem()
         setItem(item)
+        
     }, [id])
-
+    console.log(item)
     return (
         <div>
-            <ItemDetail items={item}/>
+            <ItemDetail item={item}/>
         </div>
     )
 
