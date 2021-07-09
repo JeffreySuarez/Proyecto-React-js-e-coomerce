@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    /* background-color: #afd275; */
+    /* background: #c7c8c9; */
+   
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+    flex-wrap: wrap;
+
+   
+}
+
+.item a{
+    list-style: none;
+}
+/* /* 
+background: linear-gradient(145deg, #AEB5C5, #F6FFFF);
+border-radius: 12%;
+box-shadow: inset 17.12px 17.12px 17px #9EA4B3, inset -17.12px -17.12px 17px #FFFFFF; *//*
+background: #d9e6e8;
+border-radius: 7%;
+box-shadow: 10.81px 10.81px 24px #B7C2C4, -10.81px -10.81px 24px #FBFFFF; */

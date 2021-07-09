@@ -9,7 +9,7 @@ import {Item} from '../item/item'
 export const ItemList = ({items}) => {
 
     return (
-        <Fragment>
+        <Fragment className='item'>
             {items.map((item) => (
                 <Item  key={item.id} item={item}/> 
             ))}

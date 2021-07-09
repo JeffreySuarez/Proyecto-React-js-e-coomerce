@@ -27,8 +27,9 @@ export const ItemListContainer = () => {
     console.log(items)
 
     return (
-        <div>
-            <ItemList items={items}/>
+        <div className='item'>
+            <ItemList items={items} />
+           
             
         </div>
     )

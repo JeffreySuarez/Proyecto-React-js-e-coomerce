@@ -11,14 +11,14 @@ export const ItemDetailContainer = () => {
     const {id} = useParams()
 
     const [item, setItem] = useState([])
-
-    
+    console.log(id)
+    console.log(ITEMS)
 
     useEffect(() => {
 
         const getItem = () => {
             
-            return id ? ITEMS.filter((item) => item.categoryId === id): ITEMS
+            return id ? ITEMS.filter((item) => item.itemId === id): ITEMS
             
             // return {
             //         id: 1,
@@ -29,8 +29,9 @@ export const ItemDetailContainer = () => {
             //     } 
         }
         const item = getItem()
+        console.log(item)
         setItem(item)
-        
+        console.log(getItem)
     }, [id])
     console.log(item)
     return (
