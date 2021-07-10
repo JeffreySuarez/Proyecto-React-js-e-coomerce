@@ -11,28 +11,22 @@ export const ItemDetailContainer = () => {
     const {id} = useParams()
 
     const [item, setItem] = useState([])
-    console.log(id)
-    console.log(ITEMS)
+   
 
     useEffect(() => {
 
         const getItem = () => {
             
-            return id ? ITEMS.filter((item) => item.itemId === id): ITEMS
-            
-            // return {
-            //         id: 1,
-            //         title: 'producto5',
-            //         description: 'detalle',
-            //         price: 1000,
-            //         pictureUrl: '',
-            //     } 
+            return id ? ITEMS.filter((item) => item.itemId === id) : ITEMS
+        
         }
         const item = getItem()
-        console.log(item)
+       
         setItem(item)
-        console.log(getItem)
+      
     }, [id])
+    console.log(id)
+    console.log(typeof(id))
     console.log(item)
     return (
         <div>

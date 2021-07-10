@@ -32,4 +32,17 @@
     background-color: #0c3d60;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    
+
+}
+
+.comprar:hover{
+    
+    background-color: rgb(5, 142, 206);
+}
+
+.item{
+    text-decoration: none;
 }

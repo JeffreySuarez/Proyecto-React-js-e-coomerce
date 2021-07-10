@@ -7,6 +7,9 @@ import {useState} from "react"
 import { useHistory } from "react-router"
 import {useContext} from 'react'
 import {CartContext} from '../carContext/carContext'
+// import { ItemList } from "../itemList/itemList"
+import {Item} from '../item/item'
+import { ItemList } from "../itemList/itemList"
 
 
 export const ItemDetail = ({item}) => {
@@ -27,20 +30,23 @@ export const ItemDetail = ({item}) => {
 
     return(
         <div>
-
             <div>
-                <h2>{item.title}</h2>
-                <img src={item.pictureUrl} alt="imagenProducto" />
-                <p>{item.description}</p>
-                <p>{item.price}</p>
-                 {!count && <ItemCount stock={20} 
-                onAdd={onAdd} />}
+                {item.map((item) => (
+                        <Item key={Item.id} item={item}>
+                            {!count && <ItemCount stock={20} 
+                    onAdd={onAdd} />}
                 {!!count && <button onClick = {finishPurchase}>Terminar mi compra</button>}
-            </div>
 
-           
+                        </Item>
+                        
+                ) )}
                
-            
+                {!count && <ItemCount stock={20} 
+                    onAdd={onAdd} />}
+                {!!count && <button onClick = {finishPurchase}>Terminar mi compra</button>}
+               
+                
+            </div>  
         </div>
     )
 }
