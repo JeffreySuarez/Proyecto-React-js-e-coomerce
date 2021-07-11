@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.itemD {
+
+    padding: 10px;
+    border: 0.1px solid rgb(173, 173, 173);
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 10px;
+    border-radius: 10PX;
+}
+.itemD img{
+    padding: 10px;
+    width: 70%;
+
+}
+
+.comprar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0c3d60;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+    
+
+}
+
+.comprar:hover{
+    
+    background-color: rgb(5, 142, 206);
+}
+
+.item{
+    text-decoration: none;
+}
+
+
+.itemImagen{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+
+    
+}
+
+.itemContenido{
+    padding: 10px;
+    width: 200%;
+}
+
+.itemContenido h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.itemContenido p{
+    text-align: justify;
+    padding: 20px;
+  
+
+}
+
+
+
+.itemContenido .descripcion{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemContenido .descripcion .descripcionTitulo{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.itemContenido .precio .precioPrecio {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.itemContenido .precio .precioValor{
+    font-size: 30px;
+    color: #0c3d60;
+    font-weight: bold;
+}

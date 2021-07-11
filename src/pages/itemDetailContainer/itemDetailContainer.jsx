@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './itemDetailContainer.css'
 import { ItemDetail } from '../../componets/itemDetail/itemDetail'
 import { useParams } from 'react-router-dom'
-import ITEMS from '../../data/items.json'
+// import ITEMS from '../../data/items.json'
+import ITEM from '../../data/itemDetail.json'
 
 
 
@@ -17,7 +18,7 @@ export const ItemDetailContainer = () => {
 
         const getItem = () => {
             
-            return id ? ITEMS.filter((item) => item.itemId === id) : ITEMS
+            return id ? ITEM.filter((item) => item.itemId === id) : ITEM
         
         }
         const item = getItem()

@@ -1,52 +1,54 @@
-import React from "react"
-import {ItemCount} from "../itemCount/itemCount"
-import './itemDetail.css'
+import React from "react";
+import { ItemCount } from "../itemCount/itemCount";
+import "./itemDetail.css";
 // import {Item} from '../item/item'
 // import {Link} from 'react-router-dom'
-import {useState} from "react"
-import { useHistory } from "react-router"
-import {useContext} from 'react'
-import {CartContext} from '../carContext/carContext'
+import { useState } from "react";
+import { useHistory } from "react-router";
+import { useContext } from "react";
+import { CartContext } from "../carContext/carContext";
 // import { ItemList } from "../itemList/itemList"
-import {Item} from '../item/item'
-import { ItemList } from "../itemList/itemList"
+import { Item } from "../item/item";
+import { ItemD } from "../itemD/itemD";
 
+export const ItemDetail = ({ item }) => {
+  const [count, setCount] = useState(0);
+  const history = useHistory();
 
-export const ItemDetail = ({item}) => {
+  const handleSetCantidad = useContext(CartContext);
+  const handleSetProducto = useContext(CartContext);
 
-    const [count, setCount] = useState(0);
-    const history = useHistory();
+  const onAdd = (quantity, productos) => {
+    setCount(quantity);
+    handleSetCantidad(quantity);
+    handleSetProducto(productos);
+    console.log(quantity);
+    console.log(productos);
+  };
 
-    const setProducto = useContext(CartContext)
+  //   const onAdd = (productos) => {
+  //     handleSetProducto(productos);
+  //   };
 
-    const onAdd = (quantity) => {
-        setCount(quantity);
-        setProducto ( quantity ) ;
-    }
+  const finishPurchase = () => {
+    history.push("/cart");
+  };
 
-    const finishPurchase = () => {
-        history.push('/cart')
-    }
-
-    return(
-        <div>
-            <div>
-                {item.map((item) => (
-                        <Item key={Item.id} item={item}>
-                            {!count && <ItemCount stock={20} 
-                    onAdd={onAdd} />}
-                {!!count && <button onClick = {finishPurchase}>Terminar mi compra</button>}
-
-                        </Item>
-                        
-                ) )}
-               
-                {!count && <ItemCount stock={20} 
-                    onAdd={onAdd} />}
-                {!!count && <button onClick = {finishPurchase}>Terminar mi compra</button>}
-               
-                
-            </div>  
+  return (
+    <div>
+      <div className="itemDetalle">
+        {item.map((item) => (
+          <ItemD key={Item.id} item={item}></ItemD>
+        ))}
+      </div>
+      <div className="itemButtonCounter">
+        <div>{!count && <ItemCount stock={20} onAdd={onAdd} />}</div>
+        <div className="itemTerminar">
+          {!!count && (
+            <button onClick={finishPurchase}>Terminar mi compra</button>
+          )}
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};

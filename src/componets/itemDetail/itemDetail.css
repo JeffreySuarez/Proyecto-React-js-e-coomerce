@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.itemDetalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.itemTerminar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.itemTerminar button{
+    background-color: #0c3d60;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 100px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.itemTerminar button:hover{
+    background-color: rgb(5 , 142, 206);
+}

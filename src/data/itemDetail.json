@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Casco Abus Macator",
+        "description": "Un casco para todos los ciclistas que buscan un excelente casco todoterreno. Apto para prácticamente todos los recorridos y situaciones. El Macator cuenta con un cómodo acolchado y una buena ventilación.",
+        "price": "$ 294.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
+        "categoryId": "ACCESORIOS",
+        "itemId": "1"
+    },
+    {
+        "id": 2,
+        "title": "Casco MTB Liv Infinita SX Mips",
+        "description": "Construcción todo en uno en molde para una resistencia que absorbe los impactos, máxima durabilidad y protección contra choques",
+        "price": "$ 345.100",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/157940/800001602-1.jpg?v=637164449946600000",
+        "categoryId": "ACCESORIOS",
+        "itemId": "2"
+    },
+    {
+        "id": 3,
+        "title": "Casco Garneau Edge",
+        "description": "Un casco para todos los ciclistas que buscan un excelente casco todoterreno. Apto para prácticamente todos los recorridos y situaciones. El Macator cuenta con un cómodo acolchado y una buena ventilación.",
+        "price": "$ 159.200",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/159714/14059577P7-1.jpg?v=637266485649400000",
+        "categoryId": "ACCESORIOS",
+        "itemId": "3"
+    },
+    {
+        "id": 4,
+        "title": "Casco Giant Ruta Pursuit",
+        "description": " ventilación refrescante de un casco de carreras de carretera de nivel profesional. Probado y probado por los ciclistas del Team Sunweb, el Pursuit reúne tecnologías innovadoras para crear aerodinámica de vanguardia, ventilación superior y un ajuste preciso, todo en un casco.",
+        "price": "$ 476.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
+        "categoryId": "ACCESORIOS",
+        "itemId": "4"
+    },
+    {
+        "id": 5,
+        "title": "Camiseta Giant Ss Ccc Team",
+        "description": "Camiseta Giant Ss Ccc Team",
+        "price": "$ 663.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/156602/850003928-1.jpg?v=637129806633570000",
+        "categoryId": "ROPA",
+        "itemId": "5"
+    },
+    {
+        "id": 6,
+        "title": "Camiseta Givelo G90 Manga Larga",
+        "description": "G-90 combina 5 diferentes telas ultra-ligeras en un mismo jersey.",
+        "price": "$ 278.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163400/2021-1-0101G90LS-6920.jpg?v=637587743625730000",
+        "categoryId": "ROPA",
+        "itemId": "6"
+    },
+    {
+        "id": 7,
+        "title": "Chaqueta Givelo Quickfree Unisex",
+        "description": "Apto para prácticamente todos los recorridos y situacionLa Wind Jacket de Givelo es ligera e increíblemente transpirable, con telas altmente elásticas que ofrecen un fit ajustado sin arriesgar la comodidad.",
+        "price": "$ 230.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163348/2021-0103WINDJAK-0525.jpg?v=637584242007430000",
+        "categoryId": "ROPA",
+        "itemId": "7"
+    },
+    {
+        "id": 8,
+        "title": "Pantaloneta Baggy Liv Tangle",
+        "description": " Pantaloneta Baggy Liv Tangle Gris/Rojo",
+        "price": "$ 101.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/158023/860000974-1.jpg?v=637164450511000000",
+        "categoryId": "ROPA",
+        "itemId": "8"
+    },
+    {
+        "id": 9,
+        "title": "Casco Abus Macator",
+        "description": "Un casco para todos los ciclistas que buscan un excelente casco todoterreno. Apto para prácticamente todos los recorridos y situaciones. El Macator cuenta con un cómodo acolchado y una buena ventilación.",
+        "price": "$ 294.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
+        "categoryId": "COMPONENTES",
+        "itemId": "9"
+    },
+    {
+        "id": 10,
+        "title": "Casco MTB Liv Infinita SX Mips",
+        "description": "Construcción todo en uno en molde para una resistencia que absorbe los impactos, máxima durabilidad y protección contra choques",
+        "price": "$ 345.100",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/157940/800001602-1.jpg?v=637164449946600000",
+        "categoryId": "COMPONENTES",
+        "itemId": "10"
+    },
+    {
+        "id": 11,
+        "title": "Casco Garneau Edge",
+        "description": "Un casco para todos los ciclistas que buscan un excelente casco todoterreno. Apto para prácticamente todos los recorridos y situaciones. El Macator cuenta con un cómodo acolchado y una buena ventilación.",
+        "price": "$ 159.200",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/159714/14059577P7-1.jpg?v=637266485649400000",
+        "categoryId": "COMPONENTES",
+        "itemId": "11"
+    },
+    {
+        "id": 12,
+        "title": "Casco Giant Ruta Pursuit",
+        "description": " ventilación refrescante de un casco de carreras de carretera de nivel profesional. Probado y probado por los ciclistas del Team Sunweb, el Pursuit reúne tecnologías innovadoras para crear aerodinámica de vanguardia, ventilación superior y un ajuste preciso, todo en un casco.",
+        "price": "$ 476.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
+        "categoryId": "COMPONENTES",
+        "itemId": "12"
+    },
+    {
+        "id": 13,
+        "title": "Camiseta Giant Ss Ccc Team",
+        "description": "Camiseta Giant Ss Ccc Team",
+        "price": "$ 663.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/156602/850003928-1.jpg?v=637129806633570000",
+        "categoryId": "BICICLETAS",
+        "itemId": "13"
+    },
+    {
+        "id": 14,
+        "title": "Bicicleta Giant Trance X E+ Pro 29 3 2021",
+        "description": "Subidas más fáciles, recorridos aún más largos y más senderos recorridos en un día. Esta nueva Trance X E + Pro 29 promete aún más libertad y aventura montando una bicicleta eléctrica all-mountain de 29, nacida para cualquier terreno",
+        "price": "$ 21.990.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/162436/2103356154-1.jpg?v=637497122035630000",
+        "categoryId": "BICICLETAS",
+        "itemId": "14"
+    },
+    {
+        "id": 15,
+        "title": "Bicicleta Giant ATX Elite 27.5 2021",
+        "description": "Bicicleta ATX Elite 2021",
+        "price": "$ 2.290.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/162796/New-Project.jpg?v=637542024003730000",
+        "categoryId": "BICICLETAS",
+        "itemId": "15"
+    },
+    {
+        "id": 16,
+        "title": "Bicicleta Momentum Iride UX 3S",
+        "description": " Momentum by Giant es una colección de bicicletas elegantes y cómodas que hacen que sea fácil disfrutar del ciclismo como parte de un estilo de vida activo, saludable y divertido. Esta es una experiencia completamente nueva en movilidad urbana.",
+        "price": "$ 2.590.000",
+        "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163598/2105008224.jpg?v=637595831490700000",
+        "categoryId": "BICICLETAS",
+        "itemId": "16"
+    }
+]

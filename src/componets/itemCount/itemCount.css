@@ -5,17 +5,32 @@
 }
 
 .itemCount{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
-    border: 2px solid black;
+    margin-bottom: 50px;
 }
 
 .itemCountBotones{
     display: flex;
+    
    
   
+}
+.bottonFinish{
+    background-color: #0c3d60;
+    font-size: 30px;
+    color: white;
+    padding: 5px 100px;
+
+}
+
+.itemCountCounter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .botones{
@@ -42,4 +57,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.itemCountAgregar{
+
+    background-color: #0c3d60;
+    font-size: 20px;
+    color: white;
+    padding: 5px 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.itemCountAgregar:hover{
+    background-color: rgb(5, 142, 206);
 }
