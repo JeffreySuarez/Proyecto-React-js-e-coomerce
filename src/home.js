@@ -2,6 +2,7 @@
 import './home.css';
 
 import {NavBar} from './componets/navBar/navBar'
+import {Cart} from './componets/cart/cart'
 import { ItemListContainer } from './pages/itemListContainer/itemListContainer.jsx'
 // import { ItemCount } from './componets/itemCount/itemCount'
 import { ItemDetailContainer } from './pages/itemDetailContainer/itemDetailContainer'
@@ -32,6 +33,12 @@ export const Home = () => {
           <Route exact path="/item/:id">
             <ItemDetailContainer />
           </Route>
+
+          <Route exact path="/cart">
+            <Cart />
+          </Route>
+
+
          
 
         </Switch>
