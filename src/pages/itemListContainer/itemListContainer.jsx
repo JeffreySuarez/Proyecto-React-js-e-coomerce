@@ -1,37 +1,47 @@
-
-import React, { useEffect, useState } from 'react'
-import './itemListContainer.css'
-import { ItemList } from '../../componets/itemList/itemList'
-import { useParams } from 'react-router-dom'
-import ITEMS from '../../data/items.json'
-
-
+import React, { useEffect, useState } from "react";
+import "./itemListContainer.css";
+import { ItemList } from "../../componets/itemList/itemList";
+import { useParams } from "react-router-dom";
+import { Loading } from "../../componets/loading/loading";
+import ITEMS from "../../data/items.json";
 
 export const ItemListContainer = () => {
+  const { id } = useParams();
 
-    const {id} = useParams()
+  const [items, setItems] = useState([]);
 
-    const [items, setItems] = useState([])
+  const [loading, setLoading] = useState(false);
 
-   
+  useEffect(() => {
+    setLoading(true);
 
-    useEffect(() => {
+    const getItems = () => {
+      return id ? ITEMS.filter((item) => item.categoryId === id) : ITEMS;
+    };
 
-        const getItems = () => {
+    //tiempo loadingde la pagina
 
-            return id ? ITEMS.filter((item) => item.categoryId === id): ITEMS
-        }
-        const items = getItems()
-        setItems(items)
-    }, [id])
-    console.log(items)
+    setTimeout(() => {
+      const items = getItems();
+      setItems(items);
+      setLoading(false);
+    }, 4000);
+  }, [id]);
+  console.log(items);
 
-    return (
-        <div className='item'>
+  return (
+    <section className="item">
+      {loading ? (
+        <Loading clasName="loading" />
+      ) : (
+        <div>
+          {items.length > 0 ? (
             <ItemList items={items} />
-           
-            
+          ) : (
+            <p>Esta ventana no contiene productos.</p>
+          )}
         </div>
-    )
-
-}
+      )}
+    </section>
+  );
+};
