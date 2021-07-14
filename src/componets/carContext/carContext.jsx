@@ -8,7 +8,7 @@ export const CartProvider = ({ children }) => {
   const [cantidad, setCantidad] = useState(0);
   const [productos, setProductos] = useState([]);
 
-  const addItem = (item, quantity) => {
+  const addItem = (item, cantidad) => {
     console.log("items: ", item);
 
     const isInCart = productos.some(
@@ -29,8 +29,8 @@ export const CartProvider = ({ children }) => {
       setProductos([...productos, nuevaLista]);
     } else {
       productos.forEach((producto) => {
-        if (producto.item.id == item[0].id) {
-          return (productos.quantity += cantidad);
+        if (producto.item.id === item[0].id) {
+          return (producto.quantity += cantidad);
         }
       });
     }
@@ -45,15 +45,6 @@ export const CartProvider = ({ children }) => {
     }
     console.log("total:", total);
     setCantidad(total);
-  }
-
-  function adicionarItem(item, cantidad) {
-    productos.forEach((producto) => {
-      if (producto.item.id == item.id) {
-        return (producto.quantity += cantidad);
-      }
-    });
-    setProductos([...productos]);
   }
 
   function removerItem(itemId) {
@@ -74,7 +65,6 @@ export const CartProvider = ({ children }) => {
       value={{
         productos,
         cantidad,
-        adicionarItem,
         removerItem,
         clear,
         addItem,
