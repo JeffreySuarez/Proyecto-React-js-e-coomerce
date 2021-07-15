@@ -4,6 +4,7 @@ import { ItemList } from "../../componets/itemList/itemList";
 import { useParams } from "react-router-dom";
 import { Loading } from "../../componets/loading/loading";
 import ITEMS from "../../data/items.json";
+// import { dataBase } from "../../Firebase/firebase";
 
 export const ItemListContainer = () => {
   const { id } = useParams();
@@ -11,6 +12,22 @@ export const ItemListContainer = () => {
   const [items, setItems] = useState([]);
 
   const [loading, setLoading] = useState(false);
+
+  // useEffect(() => {
+  //   setLoading(true);
+  //   const db = getFirestore();
+  //   const itemCollection = db.collection("items");
+  //   itemCollection.get().then((querySnapshot) => {
+  //     if(querySnapshot.size === 0){
+  //       console.log('No hay resultados');
+  //     }
+  //     setItems(querySnapshot.docs.map(doc => doc.data()));
+  //   }).catch ((error) => {
+  //     console.log('Error buscando productos', error );
+  //   }).finally (() => {
+  //     setLoading(false);
+  //   })
+  // }
 
   useEffect(() => {
     setLoading(true);
@@ -25,7 +42,7 @@ export const ItemListContainer = () => {
       const items = getItems();
       setItems(items);
       setLoading(false);
-    }, 4000);
+    }, 3000);
   }, [id]);
   console.log(items);
 

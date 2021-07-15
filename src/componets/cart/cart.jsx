@@ -19,9 +19,11 @@ export const Cart = () => {
             <div key={producto.item.id}>
               <ul>
                 <li>{producto.item.title}</li>
-                <li>Precio Unidad: {producto.item.price}</li>
+                <li>Precio Unidad: $ {producto.item.price}</li>
                 <li>Cantidad: {producto.quantity}</li>
-                <li>{producto.quantity * producto.item.price}</li>
+                <li>
+                  $ {Number(producto.quantity) * Number(producto.item.price)}
+                </li>
                 <li>
                   <button
                     onCLick={() => {

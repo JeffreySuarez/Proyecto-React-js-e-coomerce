@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Casco Abus Macator",
-        "price": "294.000",
+        "price": "294000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
         "categoryId": "ACCESORIOS",
         "itemId": "1"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Casco MTB Liv Infinita",
-        "price": "345.100",
+        "price": "345100",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/157940/800001602-1.jpg?v=637164449946600000",
         "categoryId": "ACCESORIOS",
         "itemId": "2"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Casco Garneau Edge",
-        "price": "159.200",
+        "price": "159200",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/159714/14059577P7-1.jpg?v=637266485649400000",
         "categoryId": "ACCESORIOS",
         "itemId": "3"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Casco Giant Ruta Pursuit",
-        "price": "476.000",
+        "price": "476000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
         "categoryId": "ACCESORIOS",
         "itemId": "4"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Camiseta Giant Ss Ccc Team",
-        "price": "663.000",
+        "price": "663000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/156602/850003928-1.jpg?v=637129806633570000",
         "categoryId": "ROPA",
         "itemId": "5"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Camiseta Givelo G90 ",
-        "price": "278.000",
+        "price": "278000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163400/2021-1-0101G90LS-6920.jpg?v=637587743625730000",
         "categoryId": "ROPA",
         "itemId": "6"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "title": "Chaqueta Givelo Quickfree ",
-        "price": "230.000",
+        "price": "230000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163348/2021-0103WINDJAK-0525.jpg?v=637584242007430000",
         "categoryId": "ROPA",
         "itemId": "7"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "title": "Pantaloneta Baggy Liv ",
-        "price": "101.000",
+        "price": "101000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/158023/860000974-1.jpg?v=637164450511000000",
         "categoryId": "ROPA",
         "itemId": "8"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "title": "Casco Abus Macator",
-        "price": "294.000",
+        "price": "294000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
         "categoryId": "COMPONENTES",
         "itemId": "9"
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "title": "Casco MTB Liv Infinita ",
-        "price": "345.100",
+        "price": "345100",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/157940/800001602-1.jpg?v=637164449946600000",
         "categoryId": "COMPONENTES",
         "itemId": "10"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "title": "Casco Garneau Edge",
-        "price": "159.200",
+        "price": "159200",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/159714/14059577P7-1.jpg?v=637266485649400000",
         "categoryId": "COMPONENTES",
         "itemId": "11"
@@ -90,7 +90,7 @@
     {
         "id": 12,
         "title": "Casco Giant Ruta Pursuit",
-        "price": "476.000",
+        "price": "476000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/161152/AB-872150-1.jpg?v=637272474594030000",
         "categoryId": "COMPONENTES",
         "itemId": "12"
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "title": "Camiseta Giant Ss Ccc Team",
-        "price": "663.000",
+        "price": "663000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/156602/850003928-1.jpg?v=637129806633570000",
         "categoryId": "BICICLETAS",
         "itemId": "13"
@@ -106,7 +106,7 @@
     {
         "id": 14,
         "title": "Bicicleta Giant Trance X ",
-        "price": "21.990.000",
+        "price": "21990000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/162436/2103356154-1.jpg?v=637497122035630000",
         "categoryId": "BICICLETAS",
         "itemId": "14"
@@ -114,7 +114,7 @@
     {
         "id": 15,
         "title": "Bicicleta Giant ATX ",
-        "price": "2.290.000",
+        "price": "2290000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/162796/New-Project.jpg?v=637542024003730000",
         "categoryId": "BICICLETAS",
         "itemId": "15"
@@ -122,7 +122,7 @@
     {
         "id": 16,
         "title": "Bicicleta Momentum Iride ",
-        "price": "2.590.000",
+        "price": "2590000",
         "pictureUrl": "http://tiendabicicol.vteximg.com.br/arquivos/ids/163598/2105008224.jpg?v=637595831490700000",
         "categoryId": "BICICLETAS",
         "itemId": "16"
