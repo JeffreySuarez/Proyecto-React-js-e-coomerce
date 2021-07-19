@@ -38,7 +38,7 @@ export const NavBar = () => {
                     <i class="fal fa-user"></i>
                 </div>
 
-                <CartWidget className="animate__bounce"/>
+                <CartWidget />
 
                 
             </div>

@@ -7,6 +7,7 @@ import {CartProvider} from './componets/carContext/carContext'
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <CartProvider>
