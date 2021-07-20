@@ -13,7 +13,7 @@ export const ItemDetailContainer = () => {
 
   useEffect(() => {
     const db = getFirestore();
-    const itemCollection = db.collection("items");
+    const itemCollection = db.collection("productos");
     itemCollection
       .get()
       .then((querySnapshot) => {

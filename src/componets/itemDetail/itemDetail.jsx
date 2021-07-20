@@ -27,7 +27,7 @@ export const ItemDetail = ({ item }) => {
   //   };
 
   const finishPurchase = () => {
-    history.push("./cart");
+    history.push("/cart");
   };
 
   return (

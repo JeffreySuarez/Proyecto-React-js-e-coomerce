@@ -17,7 +17,7 @@ export const ItemListContainer = () => {
     setLoading(true);
 
     const db = getFirestore();
-    const itemCollection = db.collection("items");
+    const itemCollection = db.collection("productos");
     itemCollection
       .get()
       .then((querySnapshot) => {
@@ -31,10 +31,8 @@ export const ItemListContainer = () => {
       })
       .finally(() => {
         setTimeout(() => {
-          const items = itemCollection;
-          setItems(items);
           setLoading(false);
-        }, 2000);
+        }, 3000);
       });
     // .finally(() => {
     //   setLoading(false);

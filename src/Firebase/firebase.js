@@ -4,7 +4,7 @@ import 'firebase/firestore';
 
 
 //configuracion Firebase
-var firebaseConfig = firebase.initializeApp( {
+const firebaseConfig = firebase.initializeApp( {
   apiKey: "AIzaSyBtEZZ8mvIZ8u932QrzMvqDUJMx8winuCY",
   authDomain: "react-e-commerce-43cac.firebaseapp.com",
   projectId: "react-e-commerce-43cac",

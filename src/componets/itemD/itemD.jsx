@@ -13,11 +13,11 @@ export const ItemD = ({ item }) => {
       <div className="itemContenido">
         <h2>{title}</h2>
         <p className="descripcion">
-          <span className="descripcionTitulo">Descripcion</span>
+          <span className="descripcionTitulo">Descripcion: </span>
           <span className="descripcionContenido">{description}</span>
         </p>
         <p className="precio">
-          <span className="precioPrecio">Precio:</span>
+          <span className="precioPrecio">Precio: $</span>
           <span className="precioValor">{price}</span>
         </p>
       </div>
