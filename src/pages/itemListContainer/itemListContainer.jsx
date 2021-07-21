@@ -5,6 +5,8 @@ import { useParams } from "react-router-dom";
 import { Loading } from "../../componets/loading/loading";
 // import ITEMS from "../../data/items.json";
 import { getFirestore } from "../../Firebase/firebase";
+import { Cart } from "../../componets/cart/cart";
+// import { getFirebase } from "../../Firebase/firebase";
 
 export const ItemListContainer = () => {
   const { id } = useParams();
@@ -34,9 +36,6 @@ export const ItemListContainer = () => {
           setLoading(false);
         }, 3000);
       });
-    // .finally(() => {
-    //   setLoading(false);
-    // });
   }, [id]);
 
   console.log(id);
@@ -56,6 +55,28 @@ export const ItemListContainer = () => {
   //     setLoading(false);
   //   }, 3000);
   // }, [id]);
+
+  useEffect(() => {
+    const orders = db.collection("orders");
+    const newOrder = {
+      buyer: userInfo,
+      items: cart,
+      date: firebase.firestore.Timestamp.fromDate(new Date()),
+      total: price(),
+    };
+    orders.add(
+      newOrder
+        .then(({ id }) => {
+          setOrderId(id);
+        })
+        .catch((err) => {
+          setError(err);
+        })
+        .finally(() => {
+          setLoading(false);
+        })
+    );
+  });
 
   return (
     <section className="item">

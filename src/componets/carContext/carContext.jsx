@@ -1,12 +1,44 @@
 import { useEffect, useState } from "react";
 
 import { createContext } from "react";
+import { Cart } from "../cart/cart";
 
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cantidad, setCantidad] = useState(0);
   const [productos, setProductos] = useState([]);
+
+  // const [total, setTotal] = useState(0);
+
+  // useEffect(() => {
+  //   const nextTotal = cantidad
+  //     .map(({ item, quantity }) => item.price * quantity)
+  //     .reduce(
+  //       (cartTotalPrice, currentItemPrice) => cartTotalPrice + currentItemPrice,
+  //       0
+  //     );
+
+  //   setTotal(nextTotal);
+  // }, [cantidad]);
+
+  const getOrder = () => {
+    const items = cantidad.map(({ item }) => ({
+      id: item.id,
+      title: item.title,
+      price: item.price,
+    }));
+    return {
+      buyer: {
+        name: "Jeffrey",
+        phone: "+57 342 546 567",
+        email: "jasr7221@gmail.com",
+      },
+      items,
+
+      //falta realizar el total
+    };
+  };
 
   const addItem = (item, cantidad) => {
     console.log("items: ", item);
@@ -48,7 +80,7 @@ export const CartProvider = ({ children }) => {
   }
 
   function removerItem(itemId) {
-    setProductos(productos.filter((producto) => producto.item.id !== itemId));
+    setProductos(productos.filter((producto) => producto.item.id === !itemId));
   }
 
   function clear() {
@@ -69,6 +101,7 @@ export const CartProvider = ({ children }) => {
         clear,
         addItem,
         circuloAzulCarrito,
+        // total,
       }}
     >
       {children}

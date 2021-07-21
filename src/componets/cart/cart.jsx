@@ -27,7 +27,7 @@ export const Cart = () => {
                 <li>
                   <button
                     onCLick={() => {
-                      removerItem(producto.item.id);
+                      removerItem(producto.items.id);
                     }}
                   >
                     Eliminar Producto
