@@ -56,27 +56,27 @@ export const ItemListContainer = () => {
   //   }, 3000);
   // }, [id]);
 
-  useEffect(() => {
-    const orders = db.collection("orders");
-    const newOrder = {
-      buyer: userInfo,
-      items: cart,
-      date: firebase.firestore.Timestamp.fromDate(new Date()),
-      total: price(),
-    };
-    orders.add(
-      newOrder
-        .then(({ id }) => {
-          setOrderId(id);
-        })
-        .catch((err) => {
-          setError(err);
-        })
-        .finally(() => {
-          setLoading(false);
-        })
-    );
-  });
+  // useEffect(() => {
+  //   const orders = db.collection("orders");
+  //   const newOrder = {
+  //     buyer: userInfo,
+  //     items: cart,
+  //     date: firebase.firestore.Timestamp.fromDate(new Date()),
+  //     total: price(),
+  //   };
+  //   orders.add(
+  //     newOrder
+  //       .then(({ id }) => {
+  //         setOrderId(id);
+  //       })
+  //       .catch((err) => {
+  //         setError(err);
+  //       })
+  //       .finally(() => {
+  //         setLoading(false);
+  //       })
+  //   );
+  // });
 
   return (
     <section className="item">
